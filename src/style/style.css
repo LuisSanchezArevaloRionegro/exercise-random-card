@@ -1,0 +1,46 @@
+body {
+    background-color: green;
+    font-size: xxx-large;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 13px 14px 10px -2px rgba(0,0,0,0.75);
+}
+
+.paloSuperior {
+    width: 100%;
+    height: 33%;
+    position: relative;
+}
+
+.paloSuperior span{
+    position:absolute;
+    top:5px;
+    left:15px;
+}
+
+.valor {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paloInferior {
+    width: 100%;
+    height: 34%;
+    position: relative;    
+}
+
+.paloInferior span{
+    position:absolute;
+    bottom:5px;
+    right:15px;
+}
